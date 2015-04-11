@@ -1,0 +1,8 @@
+language: cpp
+
+compiler: 
+  - clang
+
+script:
+  - cd build; cmake ..
+  - target/bin/dtstructs

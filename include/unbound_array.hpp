@@ -1,5 +1,5 @@
-#ifndef _unbound_array_hpp_
-#define _unbound_array_hpp_
+#ifndef __unbound_array_hpp__
+#define __unbound_array_hpp__
 
 #include <cstddef>
 
