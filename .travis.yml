@@ -5,4 +5,4 @@ compiler:
 
 script:
   - cd build; cmake ..
-  - target/bin/dtstructs
+  - ./target/bin/dtstructs
