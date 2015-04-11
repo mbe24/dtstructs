@@ -6,6 +6,4 @@ compiler:
 script:
   - cd build; cmake ..
   - cd build; make
-  - pwd
-  - ls
-  - ./target/bin/dtstructs
+  - cd ..; target/bin/dtstructs
