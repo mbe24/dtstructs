@@ -2,8 +2,9 @@ language: cpp
 
 compiler: 
   - clang
+  - gcc
 
 script:
-  - cd build; cmake ..
+  - cd build; cmake -DCMAKE_CXX_COMPILER=$CXX ..
   - cd build; make
   - cd ..; target/bin/dtstructs
